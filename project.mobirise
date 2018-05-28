@@ -35,7 +35,8 @@
         "#fd003f",
         "#14b919",
         "#ff809f",
-        "#8dff90"
+        "#8dff90",
+        "#7e9b9f"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -2595,22 +2596,22 @@
         {
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": "2",
-            "socialFacebook": true,
+            "paddingBottom": "4",
+            "socialFacebook": false,
             "postsNumber": "15",
-            "socialGoogle": false,
+            "socialGoogle": true,
             "socialDisqus": false,
             "shortName": "",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/comments-bg.jpg",
             "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.8"
           },
-          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
-          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/google-comments.jpg\"></div>",
           "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>",
           "alias": "facebook-comments",
           "_tags": [
