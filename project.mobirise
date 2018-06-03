@@ -9,7 +9,7 @@
       "name": "mobirise4",
       "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#f7ed4a",
+        "primaryColor": "#ff0040",
         "secondaryColor": "#149dcc",
         "successColor": "#000000",
         "infoColor": "#0f7699",
@@ -17,27 +17,27 @@
         "dangerColor": "#8dff90",
         "mainFont": "Rubik",
         "display1Font": "Rubik",
-        "display1Size": 4.25,
+        "display1Size": "1.6",
         "display2Font": "Indie Flower",
         "display2Size": "1.4",
         "display5Font": "Indie Flower",
-        "display5Size": "1",
-        "display7Font": "Rubik",
-        "display7Size": "0.6",
+        "display5Size": "1.8",
+        "display7Font": "Indie Flower",
+        "display7Size": "1.4",
         "display4Font": "Rubik",
-        "display4Size": 1,
+        "display4Size": "1",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
+        "#ff0040",
         "#ff6000",
         "#fd003f",
         "#14b919",
         "#ff809f",
         "#8dff90",
-        "#7e9b9f",
-        "#000000"
+        "#7e9b9f"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -62,6 +62,11 @@
         "css": "'Indie Flower', handwriting",
         "name": "Indie Flower",
         "url": "https://fonts.googleapis.com/css?family=Indie+Flower:400"
+      },
+      {
+        "css": "'Pacifico', handwriting",
+        "name": "Pacifico",
+        "url": "https://fonts.googleapis.com/css?family=Pacifico:400"
       }
     ],
     "snow": "",
@@ -487,7 +492,7 @@
         },
         {
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=__YN7ncNbks\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    ERZTUR SEYAHAT ACENTASI</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Beylikdüzü'nün kalbinde bulunan acentemizden kendinize uygun binlerce tatil seçeneği arasından birini tercih edebilir ErzTur güvencesiyle huzurla tatilinizi gerçekleştirebilirsiniz.</p>\n                <div mbr-buttons mbr-theme-style=\"display-2\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary-outline\" href=\"https://www.facebook.com/beylikduzuerztur\" target=\"_blank\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(15, 118, 153);\"></span>Facebook</a>\n                    <a class=\"btn btn-md btn-warning-outline\" href=\"https://instagram.com/erztur\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(253, 0, 63);\"></span>İnstagram</a>  <a class=\"btn btn-md btn-danger-outline\" href=\"https://api.whatsapp.com/send?phone=905537779777\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(20, 185, 25);\"></span>Whatsapp</a> <a class=\"btn btn-md btn-white-outline\" href=\"tel:+902128723322\"><span class=\"socicon socicon-viber mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 51, 102);\"></span>Ara</a>  <a class=\"btn btn-md btn-primary-outline\" href=\"http://www.otelz.com?to=1422&cid=159\" target=\"_blank\"><span class=\"socicon socicon-keybase mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(7, 59, 76);\"></span>Rezervasyon</a> <a class=\"btn btn-md btn-info-outline\" href=\"https://www.google.com/maps/dir/''/ERZTUR/data=!4m5!4m4!1m0!1m2!1m1!1s0x14b55fb7efa3b9dd:0x65b7b0e1796d7fa2?sa=X&ved=0ahUKEwjU4qevvKHbAhWHr6QKHc07AhgQ9RcIkgEwEA\" target=\"_blank\"><span class=\"socicon socicon-periscope mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(141, 255, 144);\"></span>Yol Tarifi Al</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=__YN7ncNbks\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    ERZTUR SEYAHAT ACENTASI</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Beylikdüzü'nün kalbinde bulunan acentemizden kendinize uygun binlerce tatil seçeneği arasından birini tercih edebilir ErzTur güvencesiyle huzurla tatilinizi gerçekleştirebilirsiniz.</b></p>\n                <div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://www.facebook.com/beylikduzuerztur\" target=\"_blank\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(15, 118, 153);\"></span>Facebook</a>\n                    <a class=\"btn btn-md btn-warning\" href=\"https://instagram.com/erztur\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(253, 0, 63);\"></span>İnstagram</a>  <a class=\"btn btn-md btn-danger\" href=\"https://api.whatsapp.com/send?phone=905537779777\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(20, 185, 25);\"></span>Whatsapp</a> <a class=\"btn btn-md btn-white\" href=\"tel:+902128723322\"><span class=\"socicon socicon-viber mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 51, 102);\"></span>Ara</a>  <a class=\"btn btn-md btn-primary\" href=\"http://www.otelz.com?to=1422&cid=159\" target=\"_blank\"><span class=\"socicon socicon-keybase mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(7, 59, 76);\"></span>Rezervasyon</a> <a class=\"btn btn-md btn-info\" href=\"https://www.google.com/maps/dir/''/ERZTUR/data=!4m5!4m4!1m0!1m2!1m1!1s0x14b55fb7efa3b9dd:0x65b7b0e1796d7fa2?sa=X&ved=0ahUKEwjU4qevvKHbAhWHr6QKHc07AhgQ9RcIkgEwEA\" target=\"_blank\"><span class=\"socicon socicon-periscope mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(141, 255, 144);\"></span>Yol Tarifi Al</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -501,10 +506,16 @@
             },
             "H1": {
               "text-align": "center",
-              "color": "#ff6000"
+              "color": "#ffffff"
             },
             "SPAN": {
               "color": "#55b4d4"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#f7ed4a"
+            },
+            ".mbr-text, .mbr-section-btn B": {
+              "color": "#ffffff"
             }
           },
           "_cid": "qSAmQyCo4I",
