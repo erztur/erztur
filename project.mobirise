@@ -46,7 +46,7 @@
     "robotsSwitcher": "on",
     "siteUrl": "http://erztur.com",
     "sitemapSwitcherAuto": "on",
-    "favicon": "@PROJECT_PATH@/assets/images/1-128x50-1.png",
+    "favicon": "",
     "noImageResize": "",
     "cookiesAlert": "",
     "gdpr": "",
@@ -70,9 +70,9 @@
       }
     ],
     "snow": "",
-    "html_before": "",
+    "html_before": "<!-- Google Tag Manager -->\r\n<amp-analytics config=\"https://www.googletagmanager.com/amp.json?id=GTM-KG65VT5&gtm.url=SOURCE_URL\" data-credentials=\"include\"></amp-analytics>\r\n",
     "headbody": "",
-    "botbody": ""
+    "botbody": "<!-- AMP Analytics --><script async custom-element=\"amp-analytics\" src=\"https://cdn.ampproject.org/v0/amp-analytics-0.1.js\"></script>\r\n"
   },
   "pages": {
     "home.html": {
@@ -593,13 +593,13 @@
           "_params": {
             "token": "7666351514.727bfe1.5d49bab466ce45f68f9844d6a1ef47e3",
             "showTitle": true,
-            "layoutGridRadio": true,
+            "layoutGridRadio": false,
             "imagesPerRowGrid": "5",
             "rows": "8",
             "showMoreButton": true,
-            "layoutSliderRadio": false,
-            "imagesPerRowSlider": 4,
-            "spacing": 5,
+            "layoutSliderRadio": true,
+            "imagesPerRowSlider": "5",
+            "spacing": "20",
             "fullWidth": true,
             "paddingTop": "2",
             "paddingBottom": "2",
@@ -608,8 +608,8 @@
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg",
             "overlay": true,
-            "overlayColor": "#ff3366",
-            "overlayOpacity": "0"
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.7"
           },
           "title": "<b>Instagram <a href=\"https://instagram.com/erztur\" target=\"_blank\" class=\"text-secondary\">@erztur</a></b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
