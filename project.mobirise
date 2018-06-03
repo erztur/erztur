@@ -64,7 +64,10 @@
         "url": "https://fonts.googleapis.com/css?family=Indie+Flower:400"
       }
     ],
-    "snow": ""
+    "snow": "",
+    "html_before": "",
+    "headbody": "",
+    "botbody": ""
   },
   "pages": {
     "home.html": {
