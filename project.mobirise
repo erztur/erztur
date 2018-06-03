@@ -46,11 +46,11 @@
     "robotsSwitcher": "on",
     "siteUrl": "http://erztur.com",
     "sitemapSwitcherAuto": "on",
-    "favicon": "@PROJECT_PATH@/assets/images/1-128x50.png",
+    "favicon": "@PROJECT_PATH@/assets/images/1-128x50-1.png",
     "noImageResize": "",
     "cookiesAlert": "",
     "gdpr": "",
-    "google-analytics": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-120197845-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-120197845-1');\r\n</script>",
     "sitemapSwitcher": "on",
     "siteFonts": [
       {
