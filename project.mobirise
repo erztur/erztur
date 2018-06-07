@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "ErzTur",
-    "currentPage": "home.html",
+    "currentPage": "page8.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 71,
+    "uniqCompNum": 73,
     "versionPublish": "4.7.6",
     "theme": {
       "name": "mobirise4",
@@ -774,7 +774,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1188,7 +1188,7 @@
       "settings": {
         "meta_descr": "",
         "title": "İletişim",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1641,7 +1641,7 @@
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "Tavsiye ettiğimiz oteller",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -2206,7 +2206,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "İnstagram'da Biz",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -2647,7 +2647,7 @@
       "settings": {
         "meta_descr": "Adana'yı mutlaka görmelisiniz.",
         "title": "Adana Otelleri",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -3155,7 +3155,7 @@
       "settings": {
         "meta_descr": "Samsun'u mutlaka görmelisiniz.",
         "title": "Samsun Otelleri",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -3663,7 +3663,7 @@
       "settings": {
         "meta_descr": "Antalya'yı mutlaka görmelisiniz.",
         "title": "Antalya Otelleri",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -4164,6 +4164,35 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "page8.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "8urc69cn7soe5evmh1n39dcuhjakow",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    8urc69cn7soe5evmh1n39dcuhjakow\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qUjY2iQUNH",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": true,
+          "_params": {},
+          "_anchor": "footer6-20"
         }
       ]
     }
