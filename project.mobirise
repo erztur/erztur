@@ -70,8 +70,8 @@
       }
     ],
     "snow": "",
-    "html_before": "<!-- Google Tag Manager -->\r\n<amp-analytics config=\"https://www.googletagmanager.com/amp.json?id=GTM-KG65VT5&gtm.url=SOURCE_URL\" data-credentials=\"include\"></amp-analytics>\r\n",
-    "headbody": "",
+    "html_before": "<script src=\"https://cdn.onesignal.com/sdks/OneSignalSDK.js\" async=\"\"></script>\r\n<script>\r\n  var OneSignal = window.OneSignal || [];\r\n  OneSignal.push(function() {\r\n    OneSignal.init({\r\n      appId: \"ce00f195-178c-4002-aa1b-351ce693ac29\",\r\n    });\r\n  });\r\n</script>",
+    "headbody": "<!-- Google Tag Manager -->\r\n<amp-analytics config=\"https://www.googletagmanager.com/amp.json?id=GTM-KG65VT5>m.url=SOURCE_URL\" data-credentials=\"include\"></amp-analytics>",
     "botbody": "<!-- AMP Analytics --><script async custom-element=\"amp-analytics\" src=\"https://cdn.ampproject.org/v0/amp-analytics-0.1.js\"></script>\r\n"
   },
   "pages": {
